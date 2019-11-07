@@ -26,7 +26,7 @@ export default io => ({
     const res = await io.db.getSingle({
       id: id
     })
-    if (!res.id) return { error: 'No Result' }
+    if (!res.Item.id) return { error: 'No Result' }
     return res
   },
 
