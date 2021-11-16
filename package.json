@@ -9,7 +9,7 @@
     "deploy-prod": "sls deploy --stage prod --profile work"
   },
   "dependencies": {
-    "aws-sdk": "^2.562.0",
+    "aws-sdk": "^2.814.0",
     "source-map-support": "^0.5.10",
     "uuid": "^3.3.3"
   },
